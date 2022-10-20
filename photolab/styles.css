@@ -1,0 +1,119 @@
+
+body {
+    font-family: "Trebuchet MS", "Arial", sans-serif !important;
+    background-color: #F4E4B7 !important;
+}
+.allbody {
+     padding-left: 40px;
+     padding-right: 40px;
+}
+h1 {
+    text-align: center !important;
+    text-decoration: underline;
+}
+li {
+    list-style-type: circle !important;
+}
+.listandclark {
+    display: flex;
+    align-items: stretch;
+    border-style: solid;
+    margin: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 50%;
+}
+.clarkimage {
+    padding-left: 60px;
+}
+.headandlist {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.countries {
+    display: flex;
+    align-items: stretch;
+    padding: 20px;
+    justify-content: space-around;
+}
+.collage {
+    padding: 40px;
+}
+.to {
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+}
+.two {
+    display: flex;
+    align-items: flex-start;
+    flex-ditection: row;
+}
+.social {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+.do {
+    margin: 5px;
+}
+h5 {
+    text-align: center !important;
+
+}
+.lol {
+    border-style: none;
+}
+.intro {
+    display: flex;
+    align-items: stretch;
+    border-style: solid;
+    margin: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.reviewbox {
+    display: flex;
+    align-items: stretch;
+    border-style: solid;
+    margin: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 50%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.photoicon {
+    width: 20px;
+}
+.identifier {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.date {
+}
+.comment {
+    border-style: none;
+    margin-left: 15px;
+}
+.portfolio {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.image img {
+  width: 80%;
+}
